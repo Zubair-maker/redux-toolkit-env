@@ -1,0 +1,28 @@
+const initialState = {
+  job: {
+    title: '',
+    vacancies: null,
+    department: null,
+    owner: '',
+    assesment: null,
+    member_ids: [],
+    member_names: [],
+    type: '',
+    nature: '',
+    education: [],
+    speciality: '',
+    description: '',
+    exp_min: null,
+    exp_max: null,
+    salary_min: '',
+    salary_max: '',
+    salary_type: '',
+    currency: '',
+    city: '',
+    state: null,
+    job_boards: ['Linedin-id'],
+    pipeline: null,
+    active: 1,
+  },
+};
+export default initialState;
